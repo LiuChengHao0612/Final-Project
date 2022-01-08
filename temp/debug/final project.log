@@ -1,13 +1,22 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
   bubble_sort.c
-c:\users\user\desktop\final project\source\bubble_sort.c(22): warning C4101: 'swap': 未參考的區域變數
-c:\users\user\desktop\final project\source\bubble_sort.c(22): warning C4101: 'd': 未參考的區域變數
+c:\users\asus\desktop\36\final-project\source\bubble_sort.c(22): warning C4101: 'swap': 未參考的區域變數
+c:\users\asus\desktop\36\final-project\source\bubble_sort.c(22): warning C4101: 'd': 未參考的區域變數
   insertion_sort.c
-c:\users\user\desktop\final project\source\insertion_sort.c(34): warning C4013: 'bubble_sort' 未定義; 假設 extern 傳回整數
-c:\users\user\desktop\final project\source\insertion_sort.c(28): warning C4101: 'swap': 未參考的區域變數
-c:\users\user\desktop\final project\source\insertion_sort.c(28): warning C4101: 'd': 未參考的區域變數
+c:\users\asus\desktop\36\final-project\source\insertion_sort.c(34): warning C4013: 'bubble_sort' 未定義; 假設 extern 傳回整數
+c:\users\asus\desktop\36\final-project\source\insertion_sort.c(28): warning C4101: 'swap': 未參考的區域變數
+c:\users\asus\desktop\36\final-project\source\insertion_sort.c(28): warning C4101: 'd': 未參考的區域變數
   main.c
+  quick.c
+c:\users\asus\desktop\36\final-project\source\quick.c(33): warning C4474: 'printf': 傳遞給格式字串的引數太多
+  c:\users\asus\desktop\36\final-project\source\quick.c(33): note: 預留位置及其參數需要 0 個 variadic 引數，但卻提供了 1 個
+c:\users\asus\desktop\36\final-project\source\quick.c(40): warning C4098: 'quick': 'void' 函式正在傳回值
+  selection.c
+c:\users\asus\desktop\36\final-project\source\selection.c(7): warning C4474: 'printf': 傳遞給格式字串的引數太多
+  c:\users\asus\desktop\36\final-project\source\selection.c(7): note: 預留位置及其參數需要 0 個 variadic 引數，但卻提供了 1 個
+c:\users\asus\desktop\36\final-project\source\selection.c(28): warning C4098: 'selection': 'void' 函式正在傳回值
   正在產生程式碼...
-c:\users\user\desktop\final project\source\insertion_sort.c(23): warning C4716: 'insertion_sort': 必須傳回值
-  final project.vcxproj -> C:\Users\USER\Desktop\Final Project\final project\final project\..\..\temp\debug\final project.exe
+c:\users\asus\desktop\36\final-project\source\insertion_sort.c(23): warning C4716: 'insertion_sort': 必須傳回值
+  LINK : 最後的累加連結找不到或未建置 ..\..\temp\debug\final project.exe，正在執行完整連結
+  final project.vcxproj -> C:\Users\ASUS\Desktop\36\Final-Project\final project\final project\..\..\temp\debug\final project.exe

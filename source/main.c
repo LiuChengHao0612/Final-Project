@@ -13,8 +13,10 @@ int main(void)
 		printf("If enter 0 break\n");
 		printf("If enter 1 bubble_sort\n");
 		printf("If enter 2 insertion_sort\n");
+		printf("If enter 3 quick_sort\n");
+		printf("If enter 4 selection_sort\n");
 
-		printf("Enter a number(0~3) : ");
+		printf("Enter a number(0~4) : ");
 		scanf_s("%d", &i);
 		printf("\n");
 
@@ -32,7 +34,13 @@ int main(void)
 			insert();
 			break;
 
+		case 3:
+			quick();
+			break;
 
+		case 4:
+			selection();
+			break;
 		}
 	}
 	return 0;
